@@ -1,0 +1,34 @@
+# Streamlit for dashboard
+streamlit==1.35.0
+
+# Google Fit API integration
+google-api-python-client==2.129.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+
+# Data manipulation
+pandas==2.2.2
+numpy==1.26.4
+
+# Database (SQLite)
+SQLAlchemy==2.0.30
+
+# Machine Learning
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.21.0
+
+# Alert Systems (optional)
+twilio==9.0.1       # For SMS/calls
+yagmail==0.15.293   # For email alerts
+
+# Scheduling updates (e.g., every 30 seconds)
+schedule==1.2.1
+
+# Others
+python-dotenv==1.0.1  # To manage API keys/credentials securely
+requests==2.31.0
