@@ -1,0 +1,39 @@
+2025-05-14 19:01:34,905 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-14 19:01:34,909 - INFO - Added job "retrain_models" to job store "default"
+2025-05-14 19:01:34,909 - INFO - Scheduler started
+2025-05-14 19:04:50,059 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-14 19:04:50,061 - INFO - Added job "retrain_models" to job store "default"
+2025-05-14 19:04:50,061 - INFO - Scheduler started
+2025-05-14 19:10:47,508 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-14 19:10:47,508 - INFO - Added job "retrain_models" to job store "default"
+2025-05-14 19:10:47,508 - INFO - Scheduler started
+2025-05-14 21:34:19,330 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-14 21:34:19,330 - INFO - Added job "retrain_models" to job store "default"
+2025-05-14 21:34:19,330 - INFO - Scheduler started
+2025-05-14 21:55:15,005 - WARNING - Run time of job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-14 22:04:50 IST)" was missed by 0:50:24.936289
+2025-05-14 22:01:12,379 - WARNING - Run time of job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-14 22:10:47 IST)" was missed by 0:50:24.867427
+2025-05-14 22:04:50,073 - INFO - Running job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-14 23:04:50 IST)" (scheduled at 2025-05-14 22:04:50.058474+05:30)
+2025-05-14 22:04:50,325 - ERROR - Preprocessing error: 'Heart Rate (BPM)'
+2025-05-14 22:04:50,408 - WARNING - No data after preprocessing for retraining
+2025-05-14 22:04:50,409 - INFO - Job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-14 23:04:50 IST)" executed successfully
+2025-05-14 22:08:48,453 - INFO - Scheduler has been shut down
+2025-05-14 22:08:48,465 - INFO - Pipeline stopped
+2025-05-14 22:09:02,739 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-14 22:09:02,740 - INFO - Added job "retrain_models" to job store "default"
+2025-05-14 22:09:02,740 - INFO - Scheduler started
+2025-05-14 22:10:47,518 - INFO - Running job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-14 23:10:47 IST)" (scheduled at 2025-05-14 22:10:47.508907+05:30)
+2025-05-14 22:10:47,804 - ERROR - Preprocessing error: 'Heart Rate (BPM)'
+2025-05-14 22:10:47,946 - WARNING - No data after preprocessing for retraining
+2025-05-14 22:10:47,948 - INFO - Job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-14 23:10:47 IST)" executed successfully
+2025-05-14 22:33:01,605 - INFO - Scheduler has been shut down
+2025-05-14 22:33:01,606 - INFO - Pipeline stopped
+2025-05-14 22:34:18,193 - ERROR - Data processing error: This ColumnTransformer instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-05-14 22:34:18,251 - ERROR - Data processing error: This ColumnTransformer instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-05-14 23:04:50,068 - INFO - Running job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-15 00:04:50 IST)" (scheduled at 2025-05-14 23:04:50.058474+05:30)
+2025-05-14 23:04:50,084 - ERROR - Preprocessing error: 'Heart Rate (BPM)'
+2025-05-14 23:04:50,088 - WARNING - No data after preprocessing for retraining
+2025-05-14 23:04:50,089 - INFO - Job "retrain_models (trigger: interval[1:00:00], next run at: 2025-05-15 00:04:50 IST)" executed successfully
+2025-05-14 23:14:12,662 - ERROR - CSV processing error: No columns to parse from file
+2025-05-14 23:14:12,788 - ERROR - Data processing error: This ColumnTransformer instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-05-14 23:14:59,496 - ERROR - CSV processing error: No columns to parse from file
+2025-05-14 23:14:59,587 - ERROR - Data processing error: This ColumnTransformer instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
